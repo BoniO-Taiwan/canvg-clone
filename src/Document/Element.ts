@@ -159,7 +159,7 @@ export abstract class Element {
 
     ctx.save()
 
-    if (this.getStyle('mask').hasValue()) { // mask
+    if (this.getStyle('mask').getValue('none') !== 'none') { // mask
       const mask = this.getStyle('mask').getDefinition<MaskElement>()
 
       if (mask) {
