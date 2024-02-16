@@ -1,9 +1,9 @@
 {
-  "name": "canvg",
+  "name": "@bonio-tw/canvg",
   "type": "module",
-  "version": "4.0.1",
+  "version": "0.0.1",
   "description": "JavaScript SVG parser and renderer on Canvas.",
-  "author": "Gabe Lerner",
+  "author": "Gabe Lerner & BoniO TW",
   "authors": [
     {
       "name": "Gabe Lerner",
@@ -15,6 +15,9 @@
     {
       "name": "Dan Green",
       "url": "https://twitter.com/dangreen58"
+    },
+    {
+      "name": "BoniO TW"
     }
   ],
   "license": "MIT",
